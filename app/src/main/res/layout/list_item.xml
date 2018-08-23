@@ -38,6 +38,11 @@
 
     </LinearLayout>
 
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_toRightOf="@id/magTV"
+        android:text="Placeholder Tokyo" />
 
     <LinearLayout
         android:layout_width="wrap_content"
