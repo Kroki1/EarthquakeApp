@@ -13,10 +13,31 @@
         android:layout_marginStart="16dp"
         android:text="2.2" />
 
-    <TextView
+    <LinearLayout
         android:id="@+id/placeTV"
         android:layout_width="160dp"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_toRightOf="@id/magTV"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/placeSecondaryTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="72km NNW of" />
+
+        <TextView
+            android:id="@+id/placePrimaryTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="Placeholder Tokyo" />
+
+    </LinearLayout>
+
         android:layout_centerVertical="true"
         android:layout_marginLeft="50dp"
         android:layout_marginStart="50dp"

@@ -42,7 +42,6 @@ public class EarthquakeActivity extends AppCompatActivity {
         earthquakes.add(new Earthquake("8.8","Paris","11th May 1987"));*/
 
         final ArrayList<Earthquake> earthquakes = QueryUtils.extractEarthquakes();
-
         EarthquakeAdapter adapter = new EarthquakeAdapter(this, earthquakes);
 
         // Find a reference to the {@link ListView} in the layout
